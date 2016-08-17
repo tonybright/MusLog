@@ -3,6 +3,8 @@ package com.tonybright.muslog;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.tonybright.utils.MusLog;
+
 import java.util.Date;
 
 public class MainActivity extends Activity {

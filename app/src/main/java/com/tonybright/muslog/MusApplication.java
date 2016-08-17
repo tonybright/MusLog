@@ -2,6 +2,8 @@ package com.tonybright.muslog;
 
 import android.app.Application;
 
+import com.tonybright.utils.MusLog;
+
 
 public class MusApplication extends Application {
 

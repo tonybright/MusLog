@@ -1,4 +1,4 @@
-package com.tonybright.muslog;
+package com.tonybright.utils;
 
 import android.util.Log;
 
@@ -16,7 +16,7 @@ import java.util.Locale;
  */
 public class MusLog {
 
-    private static final String MAIN_TAG = "Tonybright";
+    private static final String MAIN_TAG = "Mus";
 
     private static boolean sIsLoggable;
 
