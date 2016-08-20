@@ -6,7 +6,6 @@ import java.util.Locale;
 
 /**
  * Created by Tony on 16/3/12
- * <p/>
  * It is best practice to use BuildConfig.DEBUG to control whether
  * the log is printable, in this situation, the log will cost
  * least performances in release version
