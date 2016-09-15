@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MusLog.iml" filepath="$PROJECT_DIR$/MusLog.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/muslog/utils.iml" filepath="$PROJECT_DIR$/muslog/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/muslog/muslog.iml" filepath="$PROJECT_DIR$/muslog/muslog.iml" />
     </modules>
   </component>
 </project>

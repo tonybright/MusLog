@@ -14,6 +14,6 @@ public class MusApplication extends Application {
     }
 
     private void initialize() {
-        MusLog.setLoggable(BuildConfig.DEBUG);
+        MusLog.init("HugeHard", BuildConfig.DEBUG);
     }
 }

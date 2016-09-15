@@ -15,11 +15,16 @@ import java.util.Locale;
  */
 public class MusLog {
 
-    private static final String MAIN_TAG = "Mus";
+    private static String sMainTag = "Mus";
 
     private static boolean sIsLoggable;
 
-    public static void setLoggable(boolean isLoggable) {
+    public static void init(String mainTag, boolean isLoggable) {
+        sMainTag = mainTag;
+        sIsLoggable = isLoggable;
+    }
+
+    public static void init(boolean isLoggable) {
         sIsLoggable = isLoggable;
     }
 
@@ -84,7 +89,7 @@ public class MusLog {
     }
 
     private static void log(int priority, String subTag, String info, Object... args) {
-        String tag = String.format(Locale.US, "%s_%s", MAIN_TAG, subTag);
+        String tag = String.format(Locale.US, "%s_%s", sMainTag, subTag);
         String msg = String.format(Locale.US, info, args);
 
         switch (priority) {
