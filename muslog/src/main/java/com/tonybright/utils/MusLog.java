@@ -90,7 +90,13 @@ public class MusLog {
 
     private static void log(int priority, String subTag, String info, Object... args) {
         String tag = String.format(Locale.US, "%s_%s", sMainTag, subTag);
-        String msg = String.format(Locale.US, info, args);
+
+        String msg;
+        if (args != null && args.length != 0) {
+            msg = String.format(Locale.US, info, args);
+        } else {
+            msg = info;
+        }
 
         switch (priority) {
             case Log.VERBOSE:
